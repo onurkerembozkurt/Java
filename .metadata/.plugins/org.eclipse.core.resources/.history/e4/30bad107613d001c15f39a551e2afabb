@@ -1,0 +1,39 @@
+// dikkat edin product Manager demedim 
+/*Ürün manager i ilerde konuþucaz katmanlý yapýlarda
+ * adý üstünde manage ediyor
+ * ama ürün ama adý üstünde 
+ * bu ürünün özellikleri nedir
+ * adý leptop
+ * rengi siyah
+ * 15 incj
+ * aðýrlýgý bla bla özellikler verirsiniz
+ * fiyatýný verirsiniz bla bla
+ * bir class attribute yani özellik barýndýrýr
+ * peki arkadaþlar bir ürünün neleri var
+ * 
+ */
+public class Product {
+	//biz bunlarý burada tutmuþ olduk bunlar bildiðimiz deðiþken
+	//bunlara ayný zamanda attribute||field diyebiliriz.
+	int id;// bir ürüünün id si var id ürünü tanýmlayan eþsiz deðerdir
+	//tr de baþka kerem yok ama olabilir bizi ayýran tc kimlik gibi düþün prmiary key
+	String name;
+	String description;
+	double price;
+	int stockAmount;
+	String renk;
+	
+	// Single responsbility bir class bir amaç uðruna oluþturulmalýdýr ona 
+			//birden fazla amaç yüklersen karýþýklýk oluþur.
+	//yurt dýþýnda da yapýlan hata manager a yazýalcak fonksiyonlar buraya yazýlýyor yanlýþ yazýlamaz.
+///---------------------
+	//Encapsulation Ýhtiyacýný Anlamak
+	//Encapsulation, kapsülleme dediðimiz bir yöntemdir.Kullanýcýyý herhangi 	
+	/*bir alaný(field) kullanmak için kýsýtlamyý öngörür
+	 * 
+	 */
+	
+	
+	
+	
+}

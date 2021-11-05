@@ -1,0 +1,25 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//inheritance
+		/*kelime anlamı miras demek
+		 * classlar arası yapabiliyoruz
+		 * iki nesne arasında miras durumu
+		 * bir nesne diğerine miras bırakır
+		 * bir baba oğluna miras bırakır
+		 * şimdi operasyonlar üzerinden miras yapmayı deniyelim şuan attribute ve fiedlların mirasın
+		 * gördük
+		 * 
+		 */
+		Customer customer=new Customer();
+		Employee employee=new Employee();
+		EmployeeManager employeeManager=new EmployeeManager();
+		
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// inhertinca daha gerçekçi gerçek hayatta kullanýmý
+		// yazýlýmda en önemli olgu deðiþikliktir.
+		//amacýmýz deðiþime direnmiyen programlar yazmak
+		//þimdi bir bankacýlýk uygulamasý düþünün
+		//þimdi diyelim ki bu bir kredi hesapla
+		OgretmenKrediManager ogretmenKrediManager=new ÖgretmenKrediManager();
+		
+	}
+
+}

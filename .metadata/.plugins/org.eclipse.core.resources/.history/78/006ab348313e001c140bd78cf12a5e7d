@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//inheritance
+		/*kelime anlamı miras demek
+		 * classlar arası yapabiliyoruz
+		 * iki nesne arasında miras durumu
+		 * bir nesne diğerine miras bırakır
+		 * bir baba oğluna miras bırakır
+		 * 
+		 */
+		
+		
+		
+		
+	}
+	
+}

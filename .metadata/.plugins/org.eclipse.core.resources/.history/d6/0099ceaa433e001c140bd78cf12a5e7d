@@ -1,0 +1,17 @@
+
+public class CustomerManager {
+private BaseLogger logger;
+
+
+	public CustomerManager(BaseLogger logger) {
+		this.logger=logger;
+		
+	}
+	public void Add() {
+	System.out.println("Müþteri Eklendi");
+	DatabaseLogger logger=new DatabaseLogger();
+	logger.Log("Log mesajý");
+
+}
+	
+}

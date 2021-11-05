@@ -1,0 +1,43 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Polimorfizm 
+		 * Polimorfizm çok biçimlilik demektir.
+		 * yani aslýnda bakarsanýz olay daha önce konuþtugumuz referans tiplerinin birbirleri arasýnda
+		 * referans tutabiliyor tabi aralarýnda inheritance olmasý lazým yani üstleri ayný olacak
+		 * polimorfizim örneði için loglama örneði yapacaðým
+		 * Yazýlým projelerinde loglama oldukça kullanýlan bir yöntem
+		 * veri tabanýnda loglama olabilir
+		 * email loglama olabilir
+		 * biz bunu projelerimizde oldukça kullanýrýz
+		 * hadi gelin klasik polimorfizm ile uygulamaya çalýþalým
+		 * 
+		 * 
+		 */
+		
+		BaseLogger[] loggers=new BaseLogger[] {
+				new FileLogger(),
+				new EmailLogger(),
+				new DatabaseLogger(),
+				new ConsoleLogger()
+		};
+		for(BaseLogger logger:loggers) {
+			logger.Log("Log Mesajý");
+			
+		}
+		
+		/*normal bir int arrayda içine string deger koyamazken burada nasý file email veya database
+		 * koyuyoruz ?
+		 * aslýnda bunlarýn hepsi birer base logger 
+		 * 
+		 * 
+		 */
+		CustomerManager customerManager=new CustomerManager(new DatabaseLogger());
+		
+		
+		
+	}
+
+}

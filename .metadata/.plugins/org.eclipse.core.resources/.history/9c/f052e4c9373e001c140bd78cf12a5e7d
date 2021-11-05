@@ -1,0 +1,6 @@
+
+public class KrediUI {//userinterface siz managerde yazdýgýnz kodlarý arayüzde çaðýrýsýnýz
+	public void KrediHesapla(OgretmenKrediManager ogretmenKrediManager) {
+		ogretmenKrediManager.hesapla();
+	}
+}

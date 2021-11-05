@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// inhertinca daha gerçekçi gerçek hayatta kullanýmý
+		// yazýlýmda en önemli olgu deðiþikliktir.
+		//amacýmýz deðiþime direnmiyen programlar yazmak
+		//þimdi bir bankacýlýk uygulamasý düþünün
+		//þimdi diyelim ki bu bir kredi hesapla
+		//OgretmenKrediManager ogretmenKrediManager=new OgretmenKrediManager();
+		//ogretmenKrediManager.hesapla();
+		//krediuý oluþturduktan sonra buradan parametre çaðýrarak kullanabiliriz
+		KrediUI krediUI=new KrediUI();
+		krediUI.KrediHesapla(new OgretmenKrediManager());
+		//iþte buna poliforimz diyor.
+		//Gelin þimdi bir önceki video da söylediðim gibi polimorfizm yapalým
+		//
+		
+	}
+
+}

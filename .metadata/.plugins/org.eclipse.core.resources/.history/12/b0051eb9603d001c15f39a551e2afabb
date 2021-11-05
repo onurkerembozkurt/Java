@@ -1,0 +1,9 @@
+
+public class ProductManager {
+ public void add(Product product) {
+	 //jdbc kodlarý yazarak bu product ý veri tabanýndan çekicez
+	 System.out.println("Ürün Eklendi"+product.name);
+	 
+	 
+ }
+}

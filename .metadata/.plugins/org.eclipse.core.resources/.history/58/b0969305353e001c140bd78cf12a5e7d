@@ -1,0 +1,5 @@
+
+public class ÖğretmenKrediManager extends BaseKrediManager{
+
+}
+// bir class ancak sadece bir classtan extends alabilir

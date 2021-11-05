@@ -1,0 +1,13 @@
+
+public class FileLogger extends BaseLogger{
+	public void log(String message) {
+		System.out.println("Logged to File:"+message);
+		/*Overriding sayesinde inheritance ile sahip olunan ayný zamande base loggerdan
+		 * bulunan fonksiyonu her bir class için isteðe baðlý düzenlenebilir
+		 * buna overriding denir
+		 * 
+		 */
+		
+		
+}
+}

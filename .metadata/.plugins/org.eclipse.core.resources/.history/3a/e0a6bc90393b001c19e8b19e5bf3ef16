@@ -1,0 +1,23 @@
+package interfaces;
+
+public class CustomerManager {
+	private Logger[] loggers;
+	
+	public CustomerManager(Logger[] loggers) {
+		
+		this.loggers = loggers;
+	}
+	public void add(Customer customer ) {
+	System.out.println(customer.getFirstName());
+	Utils utils=new Utils();
+	utils.RunLoggers(loggers, customer.getFirstName());
+	
+	
+		
+	}
+	
+	public void delete(Customer customer) {
+		
+	
+	}
+}

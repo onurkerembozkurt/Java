@@ -1,0 +1,8 @@
+
+public class Instructor extends BasePerson {
+	int courseNumber;
+	public void add() {
+	System.out.println("Ögretmen"+"Sisteme giriþ yapýldý");
+	
+}
+}

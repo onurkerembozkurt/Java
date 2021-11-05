@@ -1,0 +1,19 @@
+
+public class Main {
+	//claslarla çalýþmamýzýn sebebi gündelik hayattta insanlarýn ihtiyacý deðiþtiði için insanlarýn ihtiyacýna göre
+	//direnmeyen programlar yapmamýz gerekir.
+	/*Classlarla baþlayalým sonra soyutlama kýsmýna geçelim
+	* class olayý interface olayý ve abstack olay syntax olarak bilinir ama 
+	* kullanýlmýyor
+	* Class ýn özellikleri
+	* classlarla gruplama yapýyoruz(yazdýgýmýz metotlarý fonskiyonlarý vesayre)
+	*
+	*
+	*/
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

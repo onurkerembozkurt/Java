@@ -1,0 +1,12 @@
+
+public class DortIslem {
+	public int topla(int sayi1,int sayi2) {
+		return sayi1+sayi2;
+		
+	}
+	//þimdi bize diyorlarki biz iki sayýyý toplayabiliyorduk ama 
+	//artýk 2 yerine 3 sayiyida toplayabilelim
+	
+	
+	
+}
