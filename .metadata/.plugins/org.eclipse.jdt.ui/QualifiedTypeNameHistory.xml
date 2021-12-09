@@ -2,4 +2,30 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="Customer"/>
     <fullyQualifiedTypeName name="EmailLogger"/>
+    <fullyQualifiedTypeName name="abstractClasses.GameCalculator"/>
+    <fullyQualifiedTypeName name="abstractReCap.OracleDataBaseManager"/>
+    <fullyQualifiedTypeName name="abstractReCap.BaseDataBaseManager"/>
+    <fullyQualifiedTypeName name="abstractReCap.CustomerManager"/>
+    <fullyQualifiedTypeName name="BaseDatabaseManager"/>
+    <fullyQualifiedTypeName name="ICustomerDal"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="IEatable"/>
+    <fullyQualifiedTypeName name="IPayable"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Entity"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.IEntity"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.abstracs.IProductService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.IProductsDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.AbcProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="ChildPerson"/>
+    <fullyQualifiedTypeName name="ManPerson"/>
+    <fullyQualifiedTypeName name="Person"/>
 </qualifiedTypeNameHistroy>

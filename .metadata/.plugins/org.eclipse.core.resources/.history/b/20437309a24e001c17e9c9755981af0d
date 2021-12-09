@@ -1,0 +1,6 @@
+
+public class DeleteAccount {
+public void deleteAccount() {
+	
+}
+}

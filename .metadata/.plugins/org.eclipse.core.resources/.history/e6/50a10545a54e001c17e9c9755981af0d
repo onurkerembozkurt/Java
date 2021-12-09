@@ -1,0 +1,6 @@
+
+public class DeleteAccount extends BaseToDoSomethingAccount {
+public void deleteAccount() {
+	
+}
+}

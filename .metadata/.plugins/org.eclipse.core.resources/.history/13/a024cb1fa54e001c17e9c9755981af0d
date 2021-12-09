@@ -1,0 +1,10 @@
+
+public class BaseToDoSomethingAccount {
+public BaseToDoSomethingAccount(){
+	String ad;
+	String soyAd;
+	int birthDate;
+	int tcNo;
+	
+}
+}
