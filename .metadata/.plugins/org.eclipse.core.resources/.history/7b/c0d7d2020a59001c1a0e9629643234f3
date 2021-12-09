@@ -1,0 +1,5 @@
+package kodlamaio.northwind.bussines.concretes;
+
+public class ProductManager {
+
+}

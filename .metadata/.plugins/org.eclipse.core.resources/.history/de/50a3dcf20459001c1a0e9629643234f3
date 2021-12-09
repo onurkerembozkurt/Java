@@ -1,0 +1,5 @@
+package kodlamaio.northwind.bussines.abstracts;
+
+public class ProductService {
+
+}

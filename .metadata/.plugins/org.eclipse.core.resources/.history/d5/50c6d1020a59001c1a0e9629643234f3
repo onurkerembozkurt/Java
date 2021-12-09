@@ -1,0 +1,36 @@
+package kodlamaio.northwind.api.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("api/products ")
+public class ProductsController {
+
+}
+
+
+
+
+
+/*burada api isimlendirme kuralı var
+ * productscontroller yazdık yani çogul isim veriririz yani class i çogul isimde oluşturduk
+ * Peki Controller ne demek bu güne kadar controller duymadık
+ * hepsiburadayı düşünelim
+ * mobil uygulaması var android ve ios
+ * web var yani angular
+ * bunlar bambaşka uygulamalar bide bizim
+ * backendimiz var
+ * bunlar birbiriyle anlaşamıyor çünkü biri java diğerleri farklı bişi
+ * bunun için api yerleştirdik 
+ * ve içinde controller var yani havalimanları gibi düşünelim
+ * gelen persistance i contorller düzenliyor gel kardeş iniş yap diyor
+ * bunun için class üstüne belirtmek için :
+ * @RestController yazdık
+ * @RequestMapping da altına yazdık çünkü fazladan controller gerekli olabilir
+ * bunu daha iyi anlamak için 
+ * diyelim sitemiz olsun
+ * kodlama.io/api/products içerinsinde gelen persistanci bu api karşılayacak -> @RequestMapping("api/products ")
+ * gibi yazıyoruz
+ * 
+ */
